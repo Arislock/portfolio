@@ -6,13 +6,14 @@ import contactIcon from "../assets/icon/mail.png";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full z-40 h-16">
-      {/* Full-width background */}
+    <nav className="fixed top-0 left-0 w-full h-16 z-50">
       <img
         src={navbarbg}
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />
+
+      <div className="absolute inset-0 bg-white/20" />
 
       <div className="relative max-w-5xl mx-auto h-full px-4 flex items-center justify-center">
         <div className="flex gap-24">
