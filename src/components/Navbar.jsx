@@ -4,7 +4,10 @@ import projectIcon from "../assets/icon/folder.png";
 import aboutIcon from "../assets/icon/camera.png";
 import contactIcon from "../assets/icon/mail.png";
 
-export const Navbar = () => {
+export const Navbar = ({ activeTab, setActiveTab }) => {
+  const linkBase = "flex items-center gap-2 px-3 py-1.5 transition-colors hover:bg-[#FEFFF1]";
+  const active = "bg-[#FEFFF1]";
+                
   return (
     <nav className="fixed top-0 left-0 w-full h-16 z-50">
       <img
@@ -17,15 +20,20 @@ export const Navbar = () => {
 
       <div className="relative max-w-5xl mx-auto h-full px-4 flex items-center justify-center">
         <div className="flex gap-24">
-            <a href="#home" className="flex items-center gap-2 px-3 py-1.5
-                transition-colors hover:bg-[#FEFFF1]">
-                <img src={homeIcon} alt="" className="w-8 h-8" />
-                home
-            </a>
-            <a href="#projects" className="flex items-center gap-2 px-3 py-1.5 transition-colors hover:bg-[#FEFFF1]">
-                <img src={projectIcon} alt="" className="w-8 h-8" />
-                projects
-            </a>
+            <button
+              onClick={() => setActiveTab("home")}
+              className={`${linkBase} ${activeTab === "home" ? active : ""}`}
+            >
+              <img src={homeIcon} alt="" className="w-8 h-8" />
+              home
+            </button>
+            <button
+              onClick={() => setActiveTab("projects")}
+              className={`${linkBase} ${activeTab === "projects" ? active : ""}`}
+            >
+              <img src={projectIcon} alt="" className="w-8 h-8" />
+              projects
+            </button>
             <a href="#about" className="flex items-center gap-2 px-3 py-1.5 transition-colors hover:bg-[#FEFFF1]">
                 <img src={aboutIcon} alt="" className="w-8 h-8" />
                 about

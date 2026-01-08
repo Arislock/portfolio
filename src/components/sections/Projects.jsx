@@ -4,14 +4,16 @@ import miscFile from "../../assets/img/miscFile.png";
 
 
 export const Projects = () => {
+    const file = "flex w-80 transition-transform duration-200 ease-out hover:scale-105";
+    
     return (
         <section
             id="projects"
-            className="min-h-screen flex items-center justify-center relative"
+            className="min-h-[calc(100vh-8rem)] flex items-center justify-center relative"
             >
             <div className="flex justify-between gap-16">
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <img src={caseStudyFile} className="flex w-80 transition-transform duration-200 ease-out hover:scale-110"/>
+                    <img src={caseStudyFile} className={file}/>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Goodreads Case Study</h1>
                     <div className="flex gap-8">
                         <p>Personal Project</p>
@@ -25,7 +27,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <img src={archFile} className="flex w-80 transition-transform duration-200 ease-out hover:scale-110"/>
+                    <img src={archFile} className={file}/>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Architecture Portfolio</h1>
                     <div className="flex gap-32">
                         <p>Classworks</p>
@@ -38,11 +40,11 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <img src={miscFile} className="flex w-80 transition-transform duration-200 ease-out hover:scale-110"/>
+                    <img src={miscFile} className={file}/>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Miscellaneous Works</h1>
-                    <div className="flex gap-28">
+                    <div className="flex gap-32">
                         <p>Classworks</p>
-                        <p>2023 - 2025</p>
+                        <p>2023-2025</p>
                     </div>
                     <p className="text-start">A collection of explorations in user experience and visual storytelling.</p>
                     <div className="flex gap-4">
