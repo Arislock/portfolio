@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import "tailwindcss";
 
 @keyframes slideInUp {
@@ -18,4 +18,16 @@ html, body {
   font-family: "DM Mono", monospace;
   font-weight: 400;
   background: #F6F6F6;
+}
+
+.gr-font-body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.gr-font-heading {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.gr-font-subheading {
+  font-family: "Hanken Grotesk", sans-serif;
 }

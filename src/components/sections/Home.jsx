@@ -13,7 +13,7 @@ export const Home = () => {
     return (
     <section
         id="home"
-        className="min-h-[calc(100vh-8rem)] flex items-center justify-center relative"
+        className="min-h-[calc(100vh-2.5rem)] flex items-center justify-center relative"
         >
         <div className="w-full max-w-7xl mx-auto px-4 text-center">
             <h1 className="text-5xl text-black font-medium animate-[slideInUp_0.3s_ease-out_forwards]">
