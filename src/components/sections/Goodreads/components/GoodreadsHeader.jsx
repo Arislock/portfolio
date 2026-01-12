@@ -6,8 +6,8 @@ export const GoodreadsHeader = () => {
     const subheading = "gr-font-subheading uppercase text-gray-400 font-semibold";
 
   return (
-      <div className="flex items-center justify-center relative gap-20">
-        <div className="flex flex-col gap-8 text-left">
+      <div className="flex w-full items-center relative gap-20 mt-8">
+        <div className="max-w-130 text-left space-y-6">
         <div className="flex gap-4">
             <p className={tag}>UI/UX</p>
             <p className={tag}>Case Study</p>
@@ -20,7 +20,7 @@ export const GoodreadsHeader = () => {
             Reimagining the Goodreads app, the world’s largest online reading platform.
           </p>
 
-          <div className="grid grid-cols-2 gap-x-12 gap-y-6 w-full">
+          <div className="grid grid-cols-2 gap-x-8 gap-y-6 w-96">
             <div>
               <p className={subheading}>Role</p>
               <p className="gr-font-body">Full-Stack Designer</p>
@@ -54,7 +54,7 @@ export const GoodreadsHeader = () => {
         <img
             src={coverPage}
             alt="Goodreads Case Study"
-            className="w-210"
+            className="w-225"
             />
       </div>
   );
