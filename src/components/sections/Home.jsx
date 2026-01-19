@@ -48,8 +48,6 @@ export const Home = () => {
                             As an inquisitve learner, I enjoy tackling projects that exercise my creativity and problem-solving abilities. I strive to apply my innovative mindset and thoughtful approach to design purposeful user experiences. </p>
                         <p className={text}>
                             You’ll often find me sketching slices of urban life on a park bench, playing around with melodies (haha) at the piano, or getting lost in a cozy book.</p>
-                        <p className={text}>
-                            Check out my projects <a href="#projects">here!</a></p>
                     </div>
                 </div>
                 <img src={music} className="w-32 transition-transform duration-200 ease-out hover:scale-110"/>

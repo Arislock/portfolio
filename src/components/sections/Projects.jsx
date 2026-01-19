@@ -32,7 +32,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <img src={archFile} className={file}/>
+                    <a href="public/Architecture Portfolio.pdf" target="_blank"><img src={archFile} className={file}/></a>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Architecture Portfolio</h1>
                     <div className="flex gap-32">
                         <p>Classworks</p>
@@ -45,7 +45,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <img src={miscFile} className={file}/>
+                    <img src={miscFile} className={file} onClick={() => navigate("/misc")}/>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Miscellaneous Works</h1>
                     <div className="flex gap-32">
                         <p>Classworks</p>
@@ -53,8 +53,8 @@ export const Projects = () => {
                     </div>
                     <p className="text-start">A collection of explorations in user experience and visual storytelling.</p>
                     <div className="flex gap-4">
-                        <p className={tag}>UI/UX</p>
                         <p className={tag}>User Research</p>
+                        <p className={tag}>Infographics</p>
                     </div>
                 </div>
                 

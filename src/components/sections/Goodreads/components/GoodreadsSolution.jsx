@@ -44,7 +44,7 @@ export const GoodreadsSolution = () => {
             <img src={socialScreens} alt="Social Screens" />
           </div>
 
-            <h1 className="relative w-fit gr-font-subheading uppercase font-bold text-xl px-1 py-0.5 hover:bg-[#FFD592]"><a href="https://www.figma.com/design/kxC2QoNiHRp61gt69j2fHj/Goodreads-Redesign?node-id=0-1">View the full prototype here</a></h1>
+            <h1 className="relative w-fit gr-font-subheading uppercase font-bold text-xl px-1 py-0.5 hover:bg-[#FFD592]"><a href="https://www.figma.com/design/kxC2QoNiHRp61gt69j2fHj/Goodreads-Redesign?node-id=0-1" target="_blank">View the full prototype here</a></h1>
             
 
         </div>
