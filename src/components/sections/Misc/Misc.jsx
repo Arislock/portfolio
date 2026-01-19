@@ -39,7 +39,7 @@ export const Misc = () => {
           Exploring the San Carlo alle Quattro Fontane
           </h1>
           <p className="gr-font-body">Weaving architecture with storytelling.</p>
-          <a href="src/assets/img/misc/sancarlo.png" target="_blank"><img src={sancarlo} alt="San Carlo alle Quattro Fontane" className="w-225" /></a> 
+          <img src={sancarlo} alt="San Carlo alle Quattro Fontane" className="w-225" /> 
           <p className="gr-font-body text-left text-sm">San Carlo alle Quattro Fontane Walkthrough</p>
         </div>
 
@@ -49,7 +49,7 @@ export const Misc = () => {
           The Stradivarius
           </h1>
           <p className="gr-font-body">Outling the history of the Stradivarius violin and the tradition of violin-making.</p>
-          <a href="src/assets/img/misc/strad.png" target="_blank"><img src={strad} alt="The Stradivarius" className="w-225" /></a>
+          <img src={strad} alt="The Stradivarius" className="w-225" />
           <p className="gr-font-body text-left text-sm">Stradivarius: The Art of Violin-Making Infographic</p>
           </div>
       </div>

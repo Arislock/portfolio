@@ -40,7 +40,7 @@ export const Navbar = () => {
           </NavLink>
 
           <a
-            href="public/Resume.pdf"
+            href={`${import.meta.env.BASE_URL}resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className={linkBase}

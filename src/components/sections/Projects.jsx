@@ -32,7 +32,7 @@ export const Projects = () => {
                 </div>
 
                 <div className="flex flex-col items-start gap-5 w-80">
-                    <a href="public/Architecture Portfolio.pdf" target="_blank"><img src={archFile} className={file}/></a>
+                    <a href={`${import.meta.env.BASE_URL}Architecture Portfolio.pdf`} target="_blank"><img src={archFile} className={file}/></a>
                     <h1 className="font-semibold text-xl inline-block bg-[#E7FF92] px-2 py-1.5">Architecture Portfolio</h1>
                     <div className="flex gap-32">
                         <p>Classworks</p>
