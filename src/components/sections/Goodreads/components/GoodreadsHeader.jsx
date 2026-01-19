@@ -1,5 +1,5 @@
 import coverPage from "../../../../assets/img/goodreads/coverPage.png";
-import downArrow from "../../../../assets/img/goodreads/arrowDown.png";
+// import downArrow from "../../../../assets/img/goodreads/arrowDown.png";
 
 export const GoodreadsHeader = () => {
     const tag = "bg-[#B3B6FF] py-1.5 px-2";
@@ -42,14 +42,14 @@ export const GoodreadsHeader = () => {
               <p className="gr-font-body">Adobe Illustrator</p>
             </div>
           </div>
-          <div className="flex items-center gap-1">
+          {/* <div className="flex items-center gap-1">
             <img
             src={downArrow}
             alt="arrow"
             className="w-8 h-8"
             />
             <p className="gr-font-body font-medium">Jump to Final Design + Prototype</p>
-          </div>
+          </div> */}
         </div>
         <img
             src={coverPage}

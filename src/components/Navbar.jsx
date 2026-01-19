@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import navbarbg from "../assets/img/navbar.png";
 import homeIcon from "../assets/icon/coffee.png";
 import projectIcon from "../assets/icon/folder.png";
-import aboutIcon from "../assets/icon/camera.png";
+// import aboutIcon from "../assets/icon/camera.png";
 import contactIcon from "../assets/icon/mail.png";
 
 export const Navbar = () => {
@@ -39,7 +39,17 @@ export const Navbar = () => {
             projects
           </NavLink>
 
-          <NavLink
+          <a
+            href="public/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={linkBase}
+          >
+            <img src={contactIcon} alt="" className="w-8 h-8" />
+            resume
+          </a>
+
+          {/* <NavLink
             to="about"
             className={linkClass}
           >
@@ -53,7 +63,7 @@ export const Navbar = () => {
           >
             <img src={contactIcon} alt="" className="w-8 h-8" />
             contact
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </nav>
