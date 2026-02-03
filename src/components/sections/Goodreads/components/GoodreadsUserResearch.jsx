@@ -58,7 +58,7 @@ export const GoodreadsUserResearch = () => {
                     <img src={stickyNote} alt="Sticky Note" className="w-96"/>
                     <div className={stickyNoteContainer}>
                         <span className={heading}>Community</span>
-                        <p className={body}>Users find it difficult to track down their reading activity because the user interface makes it difficult to navigate the app even for simple tasks.</p>
+                        <p className={body}>Users struggle to navigate the app’s social features, such as joining reading groups, entering giveaways, and viewing user-created lists.</p>
                         <div className="">
                             <img src={paperplane} alt="Paper Plane"  className={icon}/>
                         </div>

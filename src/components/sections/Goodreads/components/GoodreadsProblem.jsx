@@ -7,7 +7,7 @@ export const GoodreadsProblem = () => {
       <div className="flex gap-8 mt-48">
         <img src={warning} alt="Warning" className="w-32 h-32 z-10" />
         <div className="flex flex-col gap-8 text-left z-10 w-225">
-          <h2 className="gr-font-subheading uppercase text-gray-400 font-semibold">Goal</h2>
+          <h2 className="gr-font-subheading uppercase text-gray-400 font-semibold">Problem</h2>
           <h1 className="gr-font-heading text-4xl font-bold">
           The outdated user experience has driven users to seek alternative apps for their reading activities.
           </h1>
